@@ -1,0 +1,71 @@
+.Sourround {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  background-color: #FFFFFF;
+  margin-top: 200px;
+  margin-left: 200px;
+  border: 1px black solid;
+  border-radius: 20px;
+}
+
+.Sourround img {
+  border-radius: 20px;
+  height: 80%;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.Sourround .Text .DevForum {
+  margin-top: 50px;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.Sourround .Text .Content {
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 25px;
+  padding-right: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Sourround .Text .Readmore {
+  font-size: 20px;
+  padding: 10px;
+  background-color: black;
+  margin-top: 20px;
+  width: 90px;
+  border-radius: 10px;
+  margin-left: 400px;
+}
+
+.Sourround .Text .Readmore a {
+  color: #FFFFFF;
+}
+
+.Sourround .Text .Css {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Sourround .Text .Css .Black {
+  border-radius: 10px;
+  background-color: black;
+  width: 70px;
+  height: 10px;
+  margin-left: 50px;
+}
+
+.Sourround .Text .Css .White {
+  border-radius: 10px;
+  background-color: grey;
+  width: 70px;
+  height: 10px;
+  margin-left: 15px;
+}
+/*# sourceMappingURL=style.css.map */

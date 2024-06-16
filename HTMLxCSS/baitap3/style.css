@@ -1,0 +1,135 @@
+:root {
+  --width: 600px ;
+  --backgroundcolor: burlywood;
+}
+
+/*
+header
+{
+    display : flex;
+    flex-direction: row ;
+    font-size: 30px ;
+    //color: black
+    background-color:black;
+    width : 1200px;
+    //text-align: center;
+    h2
+    {
+        background-color:black;
+        margin-top: 20px;
+       // width:  var(--width);
+        width: 600px;
+        //align-content: center;
+        margin-left: 40px ;
+        border-bottom: 3px black inset ;
+        padding-bottom: 20px ;
+    } 
+    
+}
+
+.Content
+{
+    padding-top: 20px ;
+    display: flex; 
+    width : 1200px;
+    background-color: black ;
+    p
+    {
+        padding-left:40px ;
+        background-color: black;
+        font-size: 20px;
+        //width : var(--width);
+        width : 600px ;
+       // margin-left:40px ;
+        
+    }
+    .Column
+    {
+    //     margin-left: 40px ;
+        
+        width : var(--width);
+        font-size: 30px ;
+        display: flex; 
+        justify-content: space-between;
+        a{
+            background-color: black;
+            color: white;
+        }
+        li
+        {
+            background-color: black;
+        }
+        .ColumnOne , .ColumnTwo
+        {
+           background-color: black; 
+        }
+    }
+}
+*/
+body {
+  padding-top: 20px;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--backgroundcolor);
+  width: calc(2*var(--width) + 20px);
+}
+
+body h2 {
+  width: 100%;
+  font-size: 60px;
+  font-family: serif;
+  background-color: var(--backgroundcolor);
+  padding-bottom: 20px;
+  border-bottom: 5px solid white;
+}
+
+body .Column1 {
+  width: var(--width);
+  padding-bottom: 10px;
+}
+
+body .Column1 p {
+  padding-top: 20px;
+  background-color: var(--backgroundcolor);
+  width: 100%;
+  font-size: 25px;
+}
+
+body .Column2 {
+  padding-bottom: 10px;
+  margin-left: 15px;
+  width: var(--width);
+}
+
+body .Column2 .Column {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--backgroundcolor);
+}
+
+body .Column2 .Personal {
+  width: calc(var(--width) / 2);
+}
+
+body .Column2 ul {
+  background-color: var(--backgroundcolor);
+}
+
+body .Column2 li {
+  font-size: 30px;
+  background-color: var(--backgroundcolor);
+}
+
+body .Column2 li a {
+  color: white;
+  background-color: var(--backgroundcolor);
+}
+
+div {
+  background-color: var(--backgroundcolor);
+}
+/*# sourceMappingURL=style.css.map */

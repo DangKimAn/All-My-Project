@@ -1,0 +1,77 @@
+.Sourround 
+{
+    display: flex ;
+    width : 1000px ;
+     background-color:  #FFFFFF;
+    // background-color:rgb(245, 245, 245);
+    margin-top: 200px ;
+    margin-left: 200px ;
+    border: 1px black solid ;
+    border-radius: 20px;
+    img
+    {
+        border-radius: 20px;
+        height: 80%;
+        margin-top:40px ;
+        margin-left: 40px; 
+    }
+    .Text
+    {
+        .DevForum
+        {
+            margin-top: 50px;
+            font-size: 50px;
+            margin-left: 30px ;
+        }
+        .Content
+        {
+            //width: 500px ;
+            margin-left: 30px;
+            margin-top: 50px;
+            font-size: 25px ;
+            padding-right : 30px;
+            //border-right : 20px;
+            box-sizing: border-box;
+        }
+
+        .Readmore
+        {
+
+            font-size: 20px ;
+            padding: 10px ;
+            background-color: black;
+                a{
+                    color:#FFFFFF;
+                }
+            margin-top: 20px;
+            width:90px;
+            border-radius: 10px;
+            margin-left : 400px;
+        }
+
+        .Css
+        {
+            margin-top: 30px;
+            display: flex;
+            .Black
+            {
+                border-radius: 10px;
+                background-color: black;
+                width:70px;
+                height: 10px;
+                margin-left: 50px;
+                
+            }
+
+            .White
+            {
+                
+                border-radius: 10px;
+                background-color: grey;
+                width:70px;
+                height: 10px;
+                margin-left: 15px;
+            }
+        }
+    }
+}

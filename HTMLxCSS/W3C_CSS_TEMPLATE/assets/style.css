@@ -1,0 +1,558 @@
+:root{
+    --height-header:46.5px;
+}
+
+/*Common class */
+.min-width
+{
+    min-width: 100%;
+}
+
+
+/*Main*/
+.extra 
+{
+    height: 1px;
+}
+.Main{
+    width:100%;
+}
+#Header{
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    /* width: 100%; */
+    height: var(--height-header);
+    background-color: black;
+    z-index: 1;
+    text-transform: Uppercase;
+}
+#Header >.Navigation >ul >li > a{
+    height:46.5px;
+}
+#Header .Navigation ul {
+    display: flex;
+    height:100%;
+}
+
+#Header .Navigation ul li a:hover{
+    background-color: #ccc;
+}
+
+#Header .Navigation  ul li a{
+    font-size: 15px;
+    color:#fff;
+    padding: 12px 24px;
+    display: inline-block;
+}
+
+#Header .Navigation .NavSub ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#Header .Navigation .NavSub a{
+    padding: 8px 16px;
+    background-color: rgb(255,255,255);
+    display: block;
+}
+
+.Navigation .NavSub{
+    display: none;
+}
+
+ .Navigation .More:hover .NavSub{
+    display: block;
+}
+
+.fa-magnifying-glass {
+    padding :12px 24px;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass:hover{
+    background-color: red;
+}
+#Content #Slider
+{
+    display: block;
+    width: 100%;
+    height : 100vh;
+    background-repeat:no-repeat;
+    background-size: contain;
+    position: relative;
+    background: url(https://www.w3schools.com/w3images/ny.jpg) ,no-repeat;
+}
+
+#Content
+{
+    /* position: relative;
+    top:var(--height-header); */
+    margin-top: var(--height-header);
+}
+#Content #Slider .Slider--Text
+{
+    position: absolute;
+    bottom:0px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#Content #Slider .Slider--Text .Child
+{
+    padding:32px 16px;
+}
+
+#Content #Slider .Slider--Text .Child h1
+{
+    font-size: 24px;
+    color: #fff;
+    margin:10px 0px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
+
+#Content #Slider .Slider--Text .Child h2 {
+    font-size: 15px;
+    font-family: sans-serif;
+    color :#fff;
+    font-weight: 100;
+
+}
+
+
+#Content #Band
+{
+    padding :64px 16px;
+    position: relative;
+    margin: 0px ;
+    width :800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-header
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin :10px 0px;
+    font-size: 30px;
+    /* letter-spacing: 10px; */
+}
+
+.section-sub-header
+{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: dotted;
+    font-style: italic;
+    margin :15px 0px;
+}
+
+#Content #Band p{
+    text-align:justify;
+
+}
+
+
+#Content #Band .Name
+{
+    padding:32px 0px;
+    display: flex;
+
+}
+
+#Band .Name .Box
+{
+    width :33.33333%;
+}
+#Content #Band .Name h6{
+    font-size: 15px ;
+    margin: 15px  0px ;
+    color: #fff;
+    text-align: center;
+}
+
+#Content #Band .Name img
+{
+    display: block;
+    width: 153.59px;
+    border-radius:5px ;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.Black{
+    background-color: black;
+}
+
+#Tour
+{
+    width :800px;
+    padding : 64px 16px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+}
+
+#Tour .sold-tickets li {
+    border-bottom:2px solid #ccc ;
+    border-right:2px solid #ccc ;
+    border-left:2px solid #ccc ;
+    display: flex;
+    padding :8px 16px;
+    font-size: 15px;
+    position: relative;
+}
+
+#Tour .sold-tickets .sold-out
+{
+    margin-left: 16px;
+    background-color: red;
+    /* border-radius: 3px ; */
+    padding:2px 3px;
+}
+
+#Tour .sold-tickets .rest{
+    left: 30px;
+    font-size: 15px;
+
+    margin-top:2px ;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    line-height: 15px;
+    margin-left: 635px;
+}
+
+#Tour ul
+{
+    background-color: #fff;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#Tour .sold-tickets .top
+{
+    border-top:2px solid #ccc ;
+}
+
+#Tour .book
+{
+    width:800px;
+    display: flex;
+    padding:0px 16px;
+    justify-content: space-between  ;
+    transform: translateX(-16px);
+}
+
+#Tour .book .place
+{
+    width:31%;
+    background-color: #333;
+
+}
+
+#Tour .book .place img
+{
+    width :100%;
+}
+
+#Tour .book .place p
+{
+    /* padding-bott: 0px 8px 16px 8px; */
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#Tour .book .place .city
+{
+    padding-top:16px;
+}
+
+#Tour .book .place button
+{
+    margin-left:16px;
+    margin-bottom: 16px;
+    display: inline-block;
+    color :#fff;
+    padding :8px 16px;
+    background-color: black;
+    border: 0px;
+}
+
+#Tour .book .place button:hover{
+    background-color: gray;
+}
+#Tour .buy-ticket
+{
+    background-color: #333;
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    left: 116px;
+    bottom: 0px;
+    display: none;
+    animation: MOVE ease 0.4s;
+}
+
+#Tour .header
+{
+    background-color: aquamarine;
+}
+#Tour .header .tickets{
+    text-transform: lowercase;
+    width:100%;
+    padding: 50px 16px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+#Tour .header .close
+{
+    padding:8px 16px;
+    float: right;
+    /* font-size: 24px; */
+}
+
+#Tour .header .close:hover{
+    background-color: grey;
+}
+
+#Tour .header .fa-suitcase
+{
+
+    display: block;
+}
+
+#Tour .buy .title
+{
+    display: flex;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+#Tour .buy input{
+    padding: 8px;
+    width: 100%;
+    
+}
+
+#Tour .buy-ticket .buy
+{
+    padding:0.15px 16px;
+    font-size: 15px;
+}
+
+#Tour .buy-ticket .buy button
+{
+    margin-top: 32px;
+    width: 100%;
+    background-color: aquamarine;
+    padding :16px 0px;
+    text-align: center;
+    border: 0;
+    margin-bottom: 32px;
+}
+
+#Tour .buy-ticket .buy button:hover
+{
+    background-color: #ccc;
+
+}
+
+#Tour .buy-ticket .buy .red
+{
+    background-color: #f44336;
+    padding :8px 16px;
+    margin:16px 0px;
+    display: inline;
+    cursor: pointer;
+}
+
+#Tour .buy-ticket .buy .red:hover
+{
+    background-color: grey;
+}
+#Tour .buy-ticket .buy .need
+{
+    display: flex;
+    padding :8px 16px;
+    margin:16px 0px;
+    /* display: inline; */
+}
+
+#Tour .buy-ticket .buy .need h1 
+{
+    font-size: 15px;
+    text-decoration:underline;
+    color: blue;
+    padding-left: 3px;
+}
+
+.footer-buy-tickets
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Tour .buy-ticket.open
+{
+    display: block;
+}
+
+#Tour .opacity
+{
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.3;
+}
+
+#Contact
+{
+    width:800px;
+    /* padding: 64px 16px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding :64px 16px;
+    /* min-width: 100%; */
+}
+
+#Contact .infor .title
+{
+    display: flex;
+}
+
+#Contact .infor .title h4 
+{
+    font-size: 18px;
+    padding-left: 19px;
+}
+
+#Contact .infor
+{
+    width: 50%;
+    /* letter-spacing: s; */
+    line-height: 1.4;
+}
+#Contact .content
+{
+    display: flex;
+    height: 83px;
+    /* padding :32px 0px ; */
+    width: 100%;
+}
+
+/* #Contact .send
+{
+    margin-right: 0px;
+}  */
+#Contact .content .send .two
+{
+    display: flex;
+    height: 45%;
+    justify-content: space-between;
+}
+
+
+#Contact .content .send .two input
+{
+    height: 100%;
+    width: 48%;
+}
+
+#Contact .content .send input
+{
+    border: 0px;
+    padding:8px;
+}
+
+#Contact .content .send > input
+{
+    height: 45%;
+    margin-top: 3%;
+    width: 100%;
+}
+
+#Contact .button input
+{
+    /* margin:16px 0px; */
+    padding: 8px 16px;
+    background-color: black;
+    border: 0px;
+    /* margin-right: 0px; */
+    cursor: pointer;
+    margin-right: 26px;
+}
+
+#Contact .button input:hover{
+    background-color:grey;
+}
+#Contact .button
+{
+    display: flex;
+    justify-content: right;
+    padding :16px 0px;
+    
+}
+
+#Content img 
+{
+    width: 100%;
+    opacity: 0.8;
+}
+
+#Footer 
+{
+    padding:64px 16px;
+    text-align: center;
+    color: gray;
+}
+#Footer .icons
+{
+    
+    font-size: 20px;
+}
+
+#Footer .foot
+{
+    font-size: 15px;
+    margin:16px 0px;
+}
+
+#Footer .foot a 
+{
+    text-decoration: underline;
+    color: gray;
+}
+
+/* #Footer .icons
+{
+    letter-spacing: ;   
+} */
+@keyframes MOVE
+{
+    from{
+     /* opacity: 0.6; */
+     transform: translateY(-100px);   
+    }
+    to{
+    /* opacity: 0; */
+    transform: translateY(0px);
+    }
+}
+
+@media (max-width : 1204px) and (min-width:740px)
+
+{
+   #Header
+   {
+        width: 100%;
+   }
+}

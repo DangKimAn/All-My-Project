@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+
+html{
+    /* text-transform: uppercase; */
+    font-family: sans-serif;
+}
